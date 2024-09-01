@@ -1,0 +1,35 @@
+body {
+    width: 100%;
+    background: rgb(42, 99, 42);
+}
+
+#card-drawer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+
+#card-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 400px;
+}
+
+#card-container img {
+    width: 150px;
+    position: absolute;
+}
+
+button {
+   background: rgb(71, 71, 71);
+   color: white;
+   border: none;
+   box-shadow: 1px 2px 1px rgba(0,0,0,0.5);
+}
