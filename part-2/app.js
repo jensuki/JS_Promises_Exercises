@@ -71,5 +71,9 @@ button.addEventListener('click', () =>{
         eachCard.style.transform = `translate(${x}px, ${y}px) rotate(${angle}deg)`
 
         container.appendChild(eachCard);
+
+        if (response.data.remaining === 0){
+            button.remove();
+        }
     })
 })
